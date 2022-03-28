@@ -13,6 +13,6 @@ describe Airport do
     it "Instruct plane to take off from airport and confirm it is no longer in airport" do
     airport = Airport.new
     plane = Plane.new
-    airport
+    airport.instruct_land(plane)
     end
 end
